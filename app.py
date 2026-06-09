@@ -31,7 +31,7 @@ except Exception as e:
     logger.error(f"Scheduler failed to initialize: {e}")
 
 def main():
-    st.set_page_config(page_title="Antigravity News", page_icon="📰", layout="wide")
+    st.set_page_config(page_title="Autonomous News Intelligence Platform", page_icon="📰", layout="wide")
     
     st.title("📰 Autonomous News Intelligence Platform")
     st.markdown("Get the latest world news, curated, summarized, and analyzed by AI.")
